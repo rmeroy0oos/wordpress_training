@@ -10,11 +10,11 @@
     <body>
     <?php get_header(); ?>
 <!-- Deejee Home  -->
-    <div class="container-fluid bgMaster">
-        <div class="container">
+    <div class="container-fluid d-flex bgMaster">
+        <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-6 mt-5 p-5">
-                    <img src="<?php echo get_stylesheet_directory_uri() ?>/images/djimg.png" class="float-end">
+                    <img src="<?php echo get_stylesheet_directory_uri() ?>/images/djimg.png" class="img-fluid float-end">
                 </div>
                 <div class="col-6 text-center mx-auto p-2">
                     <h2> Hello, I'm Dejee </h2>
@@ -27,15 +27,15 @@
     </div>
 
 <!-- Dejee Services -->
-    <div class="container justi text-center">
+    <div class="container container justi text-center">
         <div class="row g-0">
             <div class="col">
                 <h5 class="text-uppercase display-5">services </h5>
             </div>
         </div>                            
         <div class="row align-items-center">
-            <div class="col-sm-4">
-                <div class="card p-3 mt-5 border-0">
+            <div class="col-4 col-sm-4">
+                <div class="card p-3 mt-5 h-100 border-0">
                     <div class="card-body">
                         <i class="bi bi-paint-bucket fs-3"></i>
                         <h5 class="card-title fw-bold">WEB DESIGN </h5>
@@ -44,7 +44,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4" >
+            <div class="col-4 col-sm-4" >
                 <div class="card p-3 mt-5 bg-primary border-0">
                     <div class="card-body mb-2 text-light">
                         <i class="bi bi-gem fs-3"></i>
@@ -54,7 +54,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4" >
+            <div class="col-4 col-sm-4" >
                 <div class="card p-3 mt-5 border-0" >
                     <div class="card-body">
                         <i class="bi bi-magic fs-3 mt-3"></i>
@@ -68,7 +68,7 @@
     </div>
 
 <!-- PORTFOLIO -->
-    <div class="container-port bgMaster">
+    <div class="container-fluid container-port overflow-auto bgMaster">
         <section id="portfoliosec">
         <h3 class="display-3 text-uppercae mb-5 offset-5">Portfolio</h3>
 <!-- PORTFOLIO CAROUSEL -->
@@ -76,54 +76,54 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="row align-items-center">
-                        <div class="col-sm-4">
-                            <img src="<?php echo get_stylesheet_directory_uri() ?>/images/port1.png" class="carouselItemBg img-fluid">
+                        <div class="col-4 col-sm-4">
+                            <img src="<?php echo get_stylesheet_directory_uri() ?>/images/port1.png" class="img-fluid">
                         </div>
-                        <div class="col-sm-4">
-                            <img src="<?php echo get_stylesheet_directory_uri() ?>/images/port2.png" class="carouselItemBg img-fluid">
+                        <div class="col-4 col-sm-4">
+                            <img src="<?php echo get_stylesheet_directory_uri() ?>/images/port2.png" class="img-fluid">
                         </div>
-                        <div class="col-sm-4">
-                            <img src="<?php echo get_stylesheet_directory_uri() ?>/images/port3.png" class="carouselItemBg img-fluid">
+                        <div class="col-4 col-sm-4">
+                            <img src="<?php echo get_stylesheet_directory_uri() ?>/images/port3.png" class=" img-fluid">
                         </div>                                               
                     </div>
                     <div class="row mt-4">
-                        <div class="col-sm-4">
-                            <img src="<?php echo get_stylesheet_directory_uri() ?>/images/port4.png" class="carouselItemBg">
+                        <div class="col-4 col-sm-4">
+                            <img src="<?php echo get_stylesheet_directory_uri() ?>/images/port4.png" class=" img-fluid">
                         </div>
-                        <div class="col-sm-4">
-                            <img src="<?php echo get_stylesheet_directory_uri() ?>/images/port5.png" class="carouselItemBg">
+                        <div class="col-4 col-sm-4">
+                            <img src="<?php echo get_stylesheet_directory_uri() ?>/images/port5.png" class=" img-fluid">
                         </div>
-                        <div class="col-sm-4">
-                            <div class="card carouselCard bg-primary border-0">
-                                <h5 class="card-title float-center fw-bold text-center">Branding</h5>                    
-                                <p class="card-text float-center text-capitalize text-center">home decoration</p>
+                        <div class="col-4 col-sm-4">
+                            <div class="card bg-primary h-100 border-0">
+                                <h5 class="card-title text-light  float-center fw-bold text-center">Branding</h5>                    
+                                <p class="card-text text-light float-center text-capitalize text-center">home decoration</p>
                             </div>
                         </div>  
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="row align-items-center">
-                        <div class="col-sm-4">
-                            <img src="<?php echo get_stylesheet_directory_uri() ?>/images/port5.png" class="carouselItemBg img-fluid">
+                        <div class="col-4 col-sm-4">
+                            <img src="<?php echo get_stylesheet_directory_uri() ?>/images/port5.png" class="img-fluid">
                         </div>
-                        <div class="col-sm-4">
-                            <img src="<?php echo get_stylesheet_directory_uri() ?>/images/port4.png" class="carouselItemBg img-fluid">
+                        <div class="col-4 col-sm-4">
+                            <img src="<?php echo get_stylesheet_directory_uri() ?>/images/port4.png" class="img-fluid">
                         </div>
-                        <div class="col-sm-4">
-                            <img src="<?php echo get_stylesheet_directory_uri() ?>/images/port3.png" class="carouselItemBg img-fluid">
+                        <div class="col-4 col-sm-4">
+                            <img src="<?php echo get_stylesheet_directory_uri() ?>/images/port3.png" class="img-fluid">
                         </div>                                               
                     </div>
                     <div class="row mt-4">
-                        <div class="col-sm-4">
-                            <img src="<?php echo get_stylesheet_directory_uri() ?>/images/port2.png" class="carouselItemBg">
+                        <div class="col-4 col-sm-4">
+                            <img src="<?php echo get_stylesheet_directory_uri() ?>/images/port2.png" class="img-fluid">
                         </div>
-                        <div class="col-sm-4">
-                            <img src="<?php echo get_stylesheet_directory_uri() ?>/images/port1.png" class="carouselItemBg">
+                        <div class="col-4 col-sm-4">
+                            <img src="<?php echo get_stylesheet_directory_uri() ?>/images/port1.png" class="img-fluid">
                         </div>
-                        <div class="col-sm-4">
-                            <div class="card carouselCard bg-danger border-0">
-                                <h5 class="card-title  fw-bold text-center">Branding</h5>                    
-                                <p class="card-text  text-capitalize text-center">home decoration</p>
+                        <div class="col-4 col-sm-4">
+                            <div class="card bg-danger flex-grow-1 h-100 border-0">
+                                <h5 class="card-title text-light fw-bold text-center">Branding</h5>                    
+                                <p class="card-text text-light text-capitalize text-center">home decoration</p>
                             </div>
                         </div>  
                     </div>
@@ -142,7 +142,7 @@
     </div>
 
 <!-- HIRE ME NOW -->
-    <div class="containerHire">
+    <div class="container-fluid containerHire">
         <div class="row align-items-center">
             <div class="col-8 ">
                 <h3 class="display-6 fw-medium">Make it awesome!</h3>
@@ -157,7 +157,7 @@
     </div>
 
 <!-- Feedback -->
-    <div class="containerFb bgMaster text-center">
+    <div class="container-fluid containerFb bgMaster text-center">
         <h4 class="display-4 mb-5"> What clients' <br> Feedback about me</h4>
 <!-- Feedback carousel -->
         <div id="feedback" class="carousel slide">

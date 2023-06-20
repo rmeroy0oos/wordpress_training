@@ -32,6 +32,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
   }
 
   .container{
+ 
     width: 1920px;
     height: 740px;
   }
@@ -43,57 +44,35 @@ Use it to make something cool, have fun, and share what you've learned with othe
   }
 
   .container-port{
-    width: 1920px;
-    height: 1286px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+
   }
   
-  .Portfolio {
-    font-size: 32px;
-    font-family: "Poppins";
-    color: rgb(51, 51, 51);
-    text-transform: uppercase;
-    line-height: 2.188;
-    text-align: left;
-    left: 840.892px;
-    top: 1880.992px;
-    z-index: 100;
-  }
-  
-  .carouselItemBg {
+  /* .carouselItemBg {
     background-color: rgb(180, 236, 235);
     width: 431px;
     height: 411px;
-  }
+  } */
   
-  .card.carouselCard{
+  /* .card.carouselCard{
     width: 431px;
     height: 411px;
-  }
+  } */
 
   .containerHire{
-    width: 1920px;
-    height: 360px;
     display: flex;
     justify-content: center;
     align-content: center;
   }
 
   .containerFb {
-    width: 1920px;
-    height: 880px;
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
   
-  .captionFont{
-    font-family: "Raleway";
-  }
-
   .bgContact{
     width: 1940px;
     height: 636px;
@@ -101,10 +80,35 @@ Use it to make something cool, have fun, and share what you've learned with othe
   }
 
   .contactFlex{
-    width: 1920px;
-    height: 880px;
+
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
   
+  .c-img{
+    height: 100%;
+  }
+
+  .carousel-inner {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .carousel-item {
+    display: flex;
+
+    flex: 0 0 100%; /* Adjust the width as needed */
+  }
+  
+  @media (min-width: 576px) {
+    .carousel-item {
+      flex: 0 4 50%; /* Adjust the width as needed */
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .carousel-item {
+      flex: 0 0 33.33%; /* Adjust the width as needed */
+    }
+  }
