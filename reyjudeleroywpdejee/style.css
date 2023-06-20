@@ -1,0 +1,110 @@
+/*
+Theme Name: Dejee Portfoloio
+Theme URI: https://wordpress.org/themes/twentytwenty/
+Author: Reyjudel Eroy
+Author URI: https://wordpress.org/
+Description: Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Version: 1.00
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwenty
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+  .Web_Developer {
+    font-family: "Poppins";
+  }
+  
+  .bgMaster{
+    background-color: rgb(231, 231, 231);
+    
+  }
+  
+  .card{
+    width: 315x;
+    height: 367px;
+    border: 0;
+  }
+
+  .container{
+    width: 1920px;
+    height: 740px;
+  }
+
+  .container.justi{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .container-port{
+    width: 1920px;
+    height: 1286px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .Portfolio {
+    font-size: 32px;
+    font-family: "Poppins";
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    line-height: 2.188;
+    text-align: left;
+    left: 840.892px;
+    top: 1880.992px;
+    z-index: 100;
+  }
+  
+  .carouselItemBg {
+    background-color: rgb(180, 236, 235);
+    width: 431px;
+    height: 411px;
+  }
+  
+  .card.carouselCard{
+    width: 431px;
+    height: 411px;
+  }
+
+  .containerHire{
+    width: 1920px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .containerFb {
+    width: 1920px;
+    height: 880px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .captionFont{
+    font-family: "Raleway";
+  }
+
+  .bgContact{
+    width: 1940px;
+    height: 636px;
+    background-color: rgb(158, 158, 158);
+  }
+
+  .contactFlex{
+    width: 1920px;
+    height: 880px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
