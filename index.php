@@ -27,14 +27,14 @@
     </div>
 
 <!-- Dejee Services -->
-    <div class="container container justi text-center">
+    <div class="container justi overflow-auto text-center">
         <div class="row g-0">
             <div class="col">
                 <h5 class="text-uppercase display-5">services </h5>
             </div>
         </div>                            
         <div class="row align-items-center">
-            <div class="col-4 col-sm-4">
+            <div class="col-12 col-md-6 col-lg-4">
                 <div class="card p-3 mt-5 h-100 border-0">
                     <div class="card-body">
                         <i class="bi bi-paint-bucket fs-3"></i>
@@ -44,7 +44,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4 col-sm-4" >
+            <div class="col-12 col-md-6 col-lg-4" >
                 <div class="card p-3 mt-5 bg-primary border-0">
                     <div class="card-body mb-2 text-light">
                         <i class="bi bi-gem fs-3"></i>
@@ -54,7 +54,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4 col-sm-4" >
+            <div class="col-12 col-md-6 col-lg-4" >
                 <div class="card p-3 mt-5 border-0" >
                     <div class="card-body">
                         <i class="bi bi-magic fs-3 mt-3"></i>
