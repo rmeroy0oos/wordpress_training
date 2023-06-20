@@ -10,7 +10,7 @@
     <body>
     <?php get_header(); ?>
 <!-- Deejee Home  -->
-    <div class="container-fluid d-flex bgMaster">
+    <div class="container-fluid bgMaster">
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-6 mt-5 p-5">
@@ -27,9 +27,10 @@
     </div>
 
 <!-- Dejee Services -->
-    <div class="container justi overflow-auto text-center">
+    <div class="container-fluid text-center">
+        <div class="container justi">
         <div class="row g-0">
-            <div class="col">
+            <div class="col-12">
                 <h5 class="text-uppercase display-5">services </h5>
             </div>
         </div>                            
@@ -64,6 +65,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </div>
 
